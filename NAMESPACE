@@ -1,0 +1,9 @@
+useDynLib("nhlscrapr")
+importFrom (RCurl, getURL)
+importFrom (rjson, fromJSON)
+importFrom (bitops, bitAnd)
+importFrom (bitops, bitShiftR)
+import (biglm)
+
+exportPattern("^[[:alpha:]]+")
+
